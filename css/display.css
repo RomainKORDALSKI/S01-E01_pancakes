@@ -1,0 +1,29 @@
+/* * permet de tout sélectionner */
+/* TODO : tester le box-sizing avec l'élément HTML : on veut vérifier si * sélectionne tout y compris HTML */
+* {
+  box-sizing: border-box;
+}
+
+h1,
+ul,
+li {
+  display: inline;
+}
+
+nav {
+  display: inline-block;
+  text-align: right;
+  width: 90%;
+}
+
+article,
+a {
+  border: 1px solid black;
+  padding: 16px;
+  margin: 16px;
+  background-color: aqua;
+}
+
+article {
+  width: 600px;
+}
